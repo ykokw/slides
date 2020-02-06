@@ -1,0 +1,10 @@
+{
+  "name": "fusuma-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "fusuma": "^1.15.1"
+  }
+}
