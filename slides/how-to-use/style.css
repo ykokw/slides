@@ -45,6 +45,10 @@ ul,pre[class*='language-'] {
   margin: 0;
 }
 
+img {
+  margin: 0 auto 0 0;
+}
+
 h2,h3,h4,p {
   text-align: left;
 }
@@ -54,6 +58,12 @@ h2 {
   margin-bottom: 64px;
 }
 
-ul,ol,p,pre[class*='language-'] {
+pre[class*='language-'],code[class*='language-'] {
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+ul,ol,p {
+  font-size: 3.5rem;
   margin-bottom: 24px;
 }
