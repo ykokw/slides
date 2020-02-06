@@ -1,3 +1,5 @@
+import ConfidentialMark from '../../../components/ConfidentialMark';
+
 <!-- classes: title -->
 
 # How to use
@@ -10,10 +12,24 @@
 
 ---
 
-### syntax highlight
+## syntax highlight
 
 ```js
 const displayMassage = name => console.log(`Hello, ${name}`);
 
 displayMassage('ykokw');
+```
+
+---
+
+## mdx example
+
+<ConfidentialMark />
+
+```mdx
+import ConfidentialMark from '../../../components/ConfidentialMark';
+
+## mdx example
+
+<ConfidentialMark />
 ```
