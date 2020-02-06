@@ -13,12 +13,14 @@ slide:
   code:
     languages:
       - javascript
+      - jsx
+      - markdown
     plugins: []
     theme: default
   chart: false
   math: false
 extends:
-  js:
+  js: ./prism.js
   css: ./style.css
   webpack:
 build:
